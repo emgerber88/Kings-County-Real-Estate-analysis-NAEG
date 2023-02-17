@@ -95,3 +95,7 @@ In the future, we could improve and expand this model by:
 - Incorporating additional data on school quality.
 - Gathering more data from past home sales and future home sales to increase the size of our dataset and examine sales trends over time.
 - Finding additional predictor variables such as home type and incorporating them into our model.
+
+## Links to Materials
+[Presentation](KingCounty_Slides.pdf)  
+[Jupyter Notebook](King_County_Analysis_Notebook.ipynb)
