@@ -55,7 +55,7 @@ When we ran our "all variable model" on our train data, we found that this model
 ### Transforming variables
 We saw that some of our predictor variables (such as square feet of living space, square feet of space above ground, and years old) and our outcome variable had a rightward skew so we used a log transformation to normalize their distribution. You can see that compared to the distribution above, this data appears to have a more normal distribution.
 
-![log_prices](log_prices_hist.png)
+![log_prices](Images/log_prices_hist.png)
 
 We used these transformed variables, as well as the other non-transformed variables from our All Variable Model, to run our third model.
 
