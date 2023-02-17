@@ -19,9 +19,9 @@ By measuring our predictions against records of actual home sales from 2021 to 2
 ## Data Understanding
 
 We used information from three datasets to build our model, all of which are saved in the data folder of our repository:
-- Housing sale data from the King County House Sales dataset, which includes the target variable for our models (price) and a wide range of continuous, discrete, and categorical predictor variables, such as zip code, square feet of living space, number of bedrooms, and more.
-- Student test score data from Washington State's open data portal, which we used to build a composite measure of average school quality by zip code to use as a predictor for our model.
-- School address information from the Washington school directory to build our model, which we used to match schools to zip codes in the King County House Sales dataset.
+- Housing sale data from the [King County House Sales dataset](data/kc_house_data.csv), which includes the target variable for our models (price) and a wide range of continuous, discrete, and categorical predictor variables, such as zip code, square feet of living space, number of bedrooms, and more.
+- Student test score data from [Washington State's open data portal](https://data.wa.gov/education/Report-Card-Assessment-Data-2021-22-School-Year/v928-8kke), which we used to build a composite measure of average school quality by zip code to use as a predictor for our model.
+- School address information from the [Washington school directory](https://eds.ospi.k12.wa.us/directoryeds.aspx) to build our model, which we used to match schools to zip codes in the King County House Sales dataset.
 
 We began with some exploratory data analysis which revealed a relationship between square feet of living space and price:
 
